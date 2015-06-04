@@ -8,6 +8,9 @@ module MegaLotto
       ActiveSupport.on_load(:action_view) do
         include MegaLotto::Helper
       end
+      ActiveSupport.on_load(:action_controller) do
+        include MegaLotto::Helper
+      end
     end
   end
 end

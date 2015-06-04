@@ -1,6 +1,6 @@
 require "mega_lotto/version"
-require "mega_lotto/drawing"
 require "mega_lotto/configuration"
+require "mega_lotto/drawing"
 
 require "mega_lotto/railtie" if defined?(Rails)
 
@@ -26,3 +26,4 @@ module MegaLotto
     @configuration = Configuration.new
   end
 end
+
