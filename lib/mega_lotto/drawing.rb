@@ -1,7 +1,7 @@
 module MegaLotto
   class Drawing
     def draw
-      6.times.map { single_draw }
+      MegaLotto.configuration.drawing_count.times.map { single_draw }
     end
 
     private

@@ -6,7 +6,6 @@ RSpec::Core::RakeTask.new(:spec)
 
 task :default => :spec
 
-
 task :console do
   exec "irb -I ./lib -r mega_lotto"
 end
